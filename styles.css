@@ -1,2 +1,23 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.holder {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust as needed for spacing between items */
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
 /* Your CSS Code here. */
